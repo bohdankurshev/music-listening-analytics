@@ -1,0 +1,27 @@
+# Secrets
+.env
+
+# Personal raw and processed data (never committed)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Power BI: keep the PBIP project, not the data cache
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+*.pbix
+
+# Claude Code personal files
+.claude/settings.local.json
+CLAUDE.local.md
+
+# OS / editor
+Thumbs.db
+.vscode/
