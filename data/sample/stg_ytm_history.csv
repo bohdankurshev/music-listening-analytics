@@ -1,0 +1,21 @@
+played_at_utc,track_name,artist_name,channel_name,is_topic_channel,video_id,source_file
+2026-07-08T18:27:11.019Z,Placeholder Groove 06,Sample Collective,Sample Collective - Topic,true,SAMPLE00005,sample_watch_history.json
+2026-07-09T20:49:52.479Z,Placeholder Groove 06,Sample Collective,Sample Collective - Topic,true,SAMPLE00005,sample_watch_history.json
+2026-07-17T06:18:51.497Z,Тестова пісня 03,Фейковий Гурт,Фейковий Гурт - Topic,true,SAMPLE00003,sample_watch_history.json
+2026-07-19T14:49:05.914Z,Fake Track 01,Fake Artist One,Fake Artist One - Topic,true,SAMPLE00001,sample_watch_history.json
+2026-07-26T01:06:33.726Z,Нічна вигадка 05,вигаданий виконавець,вигаданий виконавець - Topic,true,SAMPLE00004,sample_watch_history.json
+2026-07-29T03:33:08.014Z,Тестова пісня 03,Фейковий Гурт,Фейковий Гурт - Topic,true,SAMPLE00003,sample_watch_history.json
+2026-08-08T06:06:09.878Z,Fresh Fake Track 07,New Fake Artist,New Fake Artist - Topic,true,SAMPLE00006,sample_watch_history.json
+2026-08-09T18:03:41.154Z,Тестова пісня 03,Фейковий Гурт,Фейковий Гурт - Topic,true,SAMPLE00003,sample_watch_history.json
+2026-08-11T08:11:24.708Z,Тестова пісня 03,Фейковий Гурт,Фейковий Гурт - Topic,true,SAMPLE00003,sample_watch_history.json
+2026-08-11T22:21:14.572Z,Fresh Fake Track 07,New Fake Artist,New Fake Artist - Topic,true,SAMPLE00006,sample_watch_history.json
+2026-08-23T06:55:00.509Z,Fake Track 01,Fake Artist One,Fake Artist One - Topic,true,SAMPLE00001,sample_watch_history.json
+2026-08-23T17:41:17.935Z,Тестова пісня 03,Фейковий Гурт,Фейковий Гурт - Topic,true,SAMPLE00003,sample_watch_history.json
+2026-08-27T17:05:52.512Z,Placeholder Groove 06,Sample Collective,Sample Collective - Topic,true,SAMPLE00005,sample_watch_history.json
+2026-08-29T18:51:40.666Z,Fake Track 01 (Official Video),Fake Artist One Official,Fake Artist One Official,false,SAMPLE00002,sample_watch_history.json
+2026-09-04T22:53:36.735Z,Fake Track 01 (Official Video),Fake Artist One Official,Fake Artist One Official,false,SAMPLE00002,sample_watch_history.json
+2026-09-05T04:34:27.144Z,Fresh Fake Track 07,New Fake Artist,New Fake Artist - Topic,true,SAMPLE00006,sample_watch_history.json
+2026-09-08T18:48:40.038Z,Тестова пісня 03,Фейковий Гурт,Фейковий Гурт - Topic,true,SAMPLE00003,sample_watch_history.json
+2026-09-10T15:28:55.185Z,Fake Track 01,Fake Artist One,Fake Artist One - Topic,true,SAMPLE00001,sample_watch_history.json
+2026-09-17T19:24:15.621Z,Fresh Fake Track 07,New Fake Artist,New Fake Artist - Topic,true,SAMPLE00006,sample_watch_history.json
+2026-09-22T00:56:45.929Z,Fresh Fake Track 07,New Fake Artist,New Fake Artist - Topic,true,SAMPLE00006,sample_watch_history.json
