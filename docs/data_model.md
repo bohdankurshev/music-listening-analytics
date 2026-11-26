@@ -85,13 +85,13 @@ erDiagram
     dim_artist {
         int artist_key PK
         text artist_name
-        text artist_name_norm "lowercase, trimmed"
+        text artist_name_normalized "lowercase, trimmed"
         text country "MusicBrainz, nullable"
     }
     dim_track {
         int track_key PK
         text track_name
-        text track_name_norm
+        text track_name_normalized
         int artist_key FK
         text album_name
     }
@@ -120,8 +120,8 @@ erDiagram
 |---|---|---|
 | fact_streams | play, from either service | `source_item_id` = Spotify URI or YouTube `video_id` |
 | dim_service | service | Spotify, YouTube Music |
-| dim_artist | `artist_name_norm` | the normalized name is used to match artists across platforms; `country` comes later from MusicBrainz |
-| dim_track | `(artist_name_norm, track_name_norm)` | the same song with several Spotify URIs, or on both services, becomes one track |
+| dim_artist | `artist_name_normalized` | the normalized name is used to match artists across platforms; `country` comes later from MusicBrainz |
+| dim_track | `(artist_name_normalized, track_name_normalized)` | the same song with several Spotify URIs, or on both services, becomes one track |
 | dim_device | device | Android, Windows, Web Player, Unknown |
 | dim_date | Kyiv calendar day | built from `played_at_utc` converted to Europe/Kyiv |
 | dim_time | Kyiv hour | night 0-5, morning 6-11, afternoon 12-17, evening 18-23 |
