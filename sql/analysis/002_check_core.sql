@@ -34,3 +34,11 @@ WHERE artist_name IS NULL OR trim(artist_name) = ''
 UNION ALL
 SELECT 'ytm_duplicates', COUNT(*) - COUNT(DISTINCT (played_at_utc, COALESCE(video_id, 'no_id')))
 FROM staging.stg_ytm_history;
+
+
+-- Check 4: date coverage
+SELECT MIN(full_date) AS first_day,
+       MAX(full_date) AS last_day,
+       MAX(full_date) - MIN(full_date) + 1 AS expected_days,
+       COUNT(*) AS actual_days
+FROM core.dim_date;
